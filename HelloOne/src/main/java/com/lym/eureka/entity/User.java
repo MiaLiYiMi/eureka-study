@@ -4,6 +4,7 @@ public class User {
 	private String userName;
 	private String sex;
 	private Integer age;
+	private String eBankType;
 	public String getUserName() {
 		return userName;
 	}
@@ -21,6 +22,12 @@ public class User {
 	}
 	public void setAge(Integer age) {
 		this.age = age;
+	}
+	public String geteBankType() {
+		return eBankType;
+	}
+	public void seteBankType(String eBankType) {
+		this.eBankType = eBankType;
 	}
 	
 }

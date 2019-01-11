@@ -1,5 +1,7 @@
 package com.lym.eureka;
 
+import java.util.regex.Pattern;
+
 /**
  * 约瑟夫环问题
  * 递归
@@ -25,5 +27,7 @@ public class JosephusDemo {
 		else
 			return (getNumber(sum - 1, key, n - 1) + key) % sum;
 	}
+	
+	
 
 }
